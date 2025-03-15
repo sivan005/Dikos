@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="head-logo">
+                <img src="infinite.png" alt="infinite" width="35px" height="35px">
+                <div class="logo">Dikos</div>
+            </div>
+            <nav>
+                <ul>
+                    <li><i class="fas fa-chart-line"></i> Dashboard</li>
+                    <li><i class="fas fa-box"></i> Products</li>
+                    <li><i class="fas fa-file-alt"></i> Proposal</li>
+                    <li><i class="fas fa-plug"></i> Integrate</li>
+                    <li><i class="fas fa-lightbulb"></i> Business Insights</li>
+                    <li><i class="fas fa-shopping-cart"></i> Order</li>
+                    <li><i class="fas fa-bullhorn"></i> Marketing Center</li>
+                    <li><i class="fas fa-envelope"></i> Messages</li>
+                    <li><i class="fas fa-question-circle"></i> FAQ</li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="topbar">
+                <input type="text" placeholder="Search here..." class="search-bar">
+                <div class="user-info">
+                    <select>
+                        <option >Eng(us)</option>
+                        <option >India</option>
+                    </select>
+                    <span><img src="admin.jpg" alt="User" class="admin-img"> Andrew Starlin</span>
+                </div>
+            </header>
+
+            <section class="dashboard-metrics">
+                <div class="card">
+                    <h3>Revenue</h3>
+                    <p>988,658</p>
+                    <small>+32% From Last Month</small>
+                </div>
+                <div class="card">
+                    <h3>Costs</h3>
+                    <p>489,125</p>
+                    <small>-32% From Last Month</small>
+                </div>
+            </section>
+            
+            <div class="cal-grap">
+                <section class="status">
+                    <div class="calender">
+                        <a href="#">Today</a>
+                        <a href="#">Weekly</a>
+                        <a href="#">Monthly</a>
+                        <a href="#">Yearly</a> 
+                    </div>
+                    <div class="Summary">
+                        <div>
+                            <div class="status-card">To-process Shipment: <span>1520</span></div>
+                            <div class="status-card">Processed Shipment: <span>1520</span></div>
+                        </div>
+                        <div>
+                            <div class="status-card">Pending Refund: <span>56</span></div>
+                            <div class="status-card">Pending Cancellation: <span>121</span></div>
+                        </div>
+                        <div>
+                            <div class="status-card">Banned Products: <span>860</span></div>
+                            <div class="status-card">Sold Out Products: <span>1520</span></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="img-grap-scr">
+                    <img src="sales overview.png" alt="" class="graf-img">
+                </section>
+            </div>
+
+            <section>
+                <div class="Projects">
+                    <h1>Projects</h1>
+                    <p class="done-this">30 done this month</p> 
+                    <div class="Project-title"> 
+                        <h3>Companies</h3>
+                        <h3>Members</h3>
+                        <h3>Budget</h3>
+                        <h3>Completion</h3>
+                    </div> <hr>
+                    <div class="Project-list">
+                        <p>Made New Furnitures</p>
+                        <img src="admin.jpg" alt="" class="admin-img">
+                        <p>$6,958</p>
+                        <progress id="file" value="60" max="100"> 32 % </progress>
+                    </div> 
+                    <div class="Project-list">
+                        <p>Made Color Furniture</p>
+                        <img src="admin.jpg" alt="" class="admin-img">
+                        <p>$6,958</p>
+                        <progress id="file" value="40" max="100"> 40%</progress>
+                    </div> 
+                </div>
+
+            </section>
+
+        </main>
+    </div>
+
+</body>
+</html>
