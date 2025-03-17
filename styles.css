@@ -203,4 +203,48 @@ a:hover{
     justify-content:space-between;
     padding: 10px;
 }
- 
+
+
+/* Mobile Screen */
+@media screen and (max-width:910px)and (max-width:768px){
+    .sidebar{
+        display: none;
+    }
+    .dashboard-metrics{
+        flex-direction: column;
+    }
+    .cal-grap{
+        flex-direction: column;
+    }
+    .Summary{
+        flex-direction: column;
+
+    }
+    .calender a{
+        font-size: 13px;
+    }
+
+    .img-grap-scr{
+        width: fit-content;
+    }
+    .graf-img{
+        width:290px;
+        height: 200px;
+    }
+    .Projects{
+        width:100% ;
+    }
+    .Project-title h3{
+        font-size: 8px;
+    }
+    .Project-list{
+        font-size: 10px;
+        gap: 20px;
+    }
+
+    .topbar{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
